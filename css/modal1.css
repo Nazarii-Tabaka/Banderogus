@@ -1,0 +1,169 @@
+/*Обнулення*/
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,
+*:before,
+*:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,
+:active {
+	outline: none;
+}
+a:focus,
+a:active {
+	outline: none;
+}
+nav,
+footer,
+header,
+aside {
+	display: block;
+}
+html,
+body {
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+	font-family: inherit;
+}
+input::-ms-clear {
+	display: none;
+}
+button {
+	cursor: pointer;
+}
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+ul li {
+	list-style: none;
+}
+img {
+	vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: inherit;
+	font-weight: inherit;
+}
+/*--------------------*/
+
+body {
+	width: 1360px;
+	height: 768px;
+	background: #1b1d1f;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	font-family: "Montserrat", sans-serif;
+}
+
+main {
+	width: 573px;
+	height: 524px;
+	background: #ffffff;
+	margin: 122px 393px;
+	padding: 24px 0 0 0;
+}
+
+.close {
+	width: 24px;
+	height: 24px;
+	margin: 0 24px 0 525px;
+}
+
+main img:nth-child(2) {
+	width: 32px;
+	height: 52px;
+	margin: 0 270px 32px 270px;
+}
+
+main h1 {
+	width: 387px;
+	height: 24px;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 24px;
+	align-items: center;
+	color: #000000;
+	margin: 0 93px 12px 93px;
+}
+
+main p {
+	width: 282px;
+	height: 24px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: #000000;
+	margin: 0 145px 24px 145px;
+}
+
+.name,
+.email {
+	width: 374px;
+	height: 80px;
+	margin: 16px 99px 0 99px;
+}
+
+.name p,
+.email p {
+	width: 46px;
+	height: 24px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: #000000;
+	margin: 0 0 8px 0;
+}
+
+.name input,
+.email input {
+	box-sizing: border-box;
+	width: 374px;
+	height: 48px;
+	background: #ffffff;
+	border: 1px solid #005bbb;
+	border-radius: 8px;
+}
+
+.button {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 12px 24px;
+	width: 172px;
+	height: 48px;
+	background: #ff6b0a;
+	border-radius: 8px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: #ffffff;
+	margin: 40px 200px 60px 200px;
+}
