@@ -81,6 +81,10 @@ body {
 	font-family: "Montserrat", sans-serif;
 }
 
+header {
+	position: absolute;
+}
+
 header p {
 	width: 241px;
 	height: 32px;
@@ -126,6 +130,7 @@ main {
 	width: 1360px;
 	height: 720px;
 	background: url(../img/gus.png) right no-repeat;
+	padding: 56px 0 0 0;
 }
 
 .main-container {
